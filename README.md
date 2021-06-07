@@ -10,11 +10,4 @@ To run locally:
 - Run `sequelize db:migrate`
 - Run `nodemon` or `npm start`
 
-  "username": process.env.DB_USERNAME,
-  "password": process.env.DB_PASSWORD,
-  "database": process.env.DB_NAME,
-  "host": process.env.DB_HOST,
-  "dialect": process.env.DB_DIALECT,
-  "port": process.env.DB_PORT
-
 Serializer logic inspired from: https://medium.com/riipen-engineering/serializing-data-with-sequelize-6c3a9633797a
